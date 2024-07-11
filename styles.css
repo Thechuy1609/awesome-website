@@ -1,0 +1,57 @@
+body {
+    background-color: #e5e7eb;
+}
+
+
+.up {
+
+    background-color: #1f2937 ;
+    color: #f9faf8; height: 340px
+}
+.header {
+    
+   
+     display: flex; color: white; 
+     align-items: center; color: #e5e7eb;
+     font-weight: bold; padding: 25px;
+     border: solid red; font-family:
+      'Segoe UI', Tahoma, Geneva, Verdana,
+       sans-serif; 
+     
+     
+}
+.headerr{
+     
+}
+
+
+.left {
+    display: flex;
+    gap: 8px; 
+    flex: 2 ; padding-left: 10px;
+    
+}
+
+.right {
+    display: flex;
+    gap: 8px; padding-right: 10px;
+    list-style: none; text size: 18px;
+    font-weight: lighter;
+
+}
+
+.updown {
+    border: solid red; display: flex;
+    flex-direction: column; margin: 30px;
+    margin-bottom: 30px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+     sans-serif;
+}
+
+.logo {
+    display: flex; color: #f9faf8;
+    font-size: 48px; font-weight: bolder;
+}
+.signup {
+    border:none
+}
