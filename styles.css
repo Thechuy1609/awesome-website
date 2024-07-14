@@ -6,7 +6,8 @@ body {
 .up {
 
     background-color: #1f2937 ;
-    color: #f9faf8; height: 340px
+    color: #f9faf8; height: 340px;
+    justify-content: space-between;
 }
 .header {
     
@@ -14,9 +15,9 @@ body {
      display: flex; color: white; 
      align-items: center; color: #e5e7eb;
      font-weight: bold; padding: 25px;
-     border: solid red; font-family:
+    /* border: solid red;*/ font-family:
       'Segoe UI', Tahoma, Geneva, Verdana,
-       sans-serif; 
+       sans-serif;
      
      
 }
@@ -28,7 +29,9 @@ body {
 .left {
     display: flex;
     gap: 8px; 
-    flex: 2 ; padding-left: 10px;
+    flex: 1; padding-left: 10px; 
+    margin-left: 50px;
+
     
 }
 
@@ -36,22 +39,55 @@ body {
     display: flex;
     gap: 8px; padding-right: 10px;
     list-style: none; text size: 18px;
-    font-weight: lighter;
+    font-weight: lighter; padding-left:20px;
+    flex:1; justify-content: right;
+    margin-right: 55px
+
 
 }
 
+
+.subtext{
+margin-left: 50px;
+}
+
+
 .updown {
-    border: solid red; display: flex;
+    /*border: solid red; */display: flex;
     flex-direction: column; margin: 30px;
     margin-bottom: 30px;  
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
-     sans-serif;
+    font-family: 'Segoe UI', 
+    Tahoma, Geneva, Verdana,
+     sans-serif; justify-content: space-between;
+     flex-direction: row;
+     gap: 20px;
+
 }
 
 .logo {
     display: flex; color: #f9faf8;
     font-size: 48px; font-weight: bolder;
+    flex: 1; margin-left: 50px;
 }
-.signup {
-    border:none
+button {
+    background-color: #0866ff;
+    font-size: 20px;
+color: white;
+border-radius: 8px; border-color: #f9faf8;
+font-size: 16px;
+line-height: 18px;
+padding: 0 16px;
+width: 92px; margin-left: 50px;
+}
+.imagen {
+/*border: solid red;*/ display: flex ; flex: 1;
+flex-shrink: 0; align-items:center; 
+justify-content: right; width: 99px
+}
+.updownright {
+    display: flex; flex: 1; justify-content: right
+}
+img {
+    width: 400px;
+    height: 210px; padding-right: 200px;
 }
