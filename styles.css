@@ -15,15 +15,13 @@ body {
      display: flex; color: white; 
      align-items: center; color: #e5e7eb;
      font-weight: bold; padding: 25px;
-    /* border: solid red;*/ font-family:
+     /*border: solid red*/; font-family:
       'Segoe UI', Tahoma, Geneva, Verdana,
        sans-serif;
      
      
 }
-.headerr{
-     
-}
+
 
 
 .left {
@@ -31,6 +29,8 @@ body {
     gap: 8px; 
     flex: 1; padding-left: 10px; 
     margin-left: 50px;
+    flex-direction: column;
+    justify-content: left;
 
     
 }
@@ -41,7 +41,7 @@ body {
     list-style: none; text size: 18px;
     font-weight: lighter; padding-left:20px;
     flex:1; justify-content: right;
-    margin-right: 55px
+    margin-right: 55px;
 
 
 }
@@ -53,14 +53,13 @@ margin-left: 50px;
 
 
 .updown {
-    /*border: solid red; */display: flex;
-    flex-direction: column; margin: 30px;
+    display: flex
+    ; margin: 30px;
     margin-bottom: 30px;  
     font-family: 'Segoe UI', 
     Tahoma, Geneva, Verdana,
-     sans-serif; justify-content: space-between;
-     flex-direction: row;
-     gap: 20px;
+     sans-serif; justify-content:space-between;/* border: solid red;*/
+
 
 }
 
@@ -71,23 +70,38 @@ margin-left: 50px;
 }
 button {
     background-color: #0866ff;
-    font-size: 20px;
 color: white;
-border-radius: 8px; border-color: #f9faf8;
-font-size: 16px;
+border-radius: 8px; border-style: none;
+font-size: 14px;
 line-height: 18px;
 padding: 0 16px;
 width: 92px; margin-left: 50px;
 }
 .imagen {
-/*border: solid red;*/ display: flex ; flex: 1;
-flex-shrink: 0; align-items:center; 
-justify-content: right; width: 99px
+ 
+}
+.updownleft {
+    display: flex; flex-direction: column
 }
 .updownright {
-    display: flex; flex: 1; justify-content: right
+display: flex; flex-direction: row;
+gap: 60px; padding-left: 10px; margin-left: 50px;
+margin-top: 27px;
+}
+
+.all {
+    /*border: solid red;*/
+    display: flex; flex-direction:row
 }
 img {
-    width: 400px;
-    height: 210px; padding-right: 200px;
+padding-left: px;
+
+}
+
+.container{
+  
+}
+.all1 {
+    display: flex; /*border: solid red;*/
+flex-wrap:wrap
 }
